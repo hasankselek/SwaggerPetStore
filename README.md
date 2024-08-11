@@ -71,7 +71,7 @@ All test scenarios ran successfully. Below are the results showing whether each 
 
 ### Allure Test Result
 
-![AllureReports1.png](https://github.com/hasankselek/SwaggerPetStore/blob/main/TestsScreenshots/AllureReports1.png)    
-![AllureReports2.png](https://github.com/hasankselek/SwaggerPetStore/blob/main/TestsScreenshots/AllureReports2.png)  
+![AllureReports.png]()    
+![AllureReportsBehaviors.png]()  
 
 
