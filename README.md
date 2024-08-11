@@ -35,11 +35,11 @@ Tests have been conducted on the GET, POST, PUT, and DELETE methods of the API.
 9. **DELETE - Delete invalid pet ID - should return 404 for an invalid pet ID**
 10. **DELETE - Delete non-existing pet ID - should return 404 for a non-existing pet ID**
 
-## Test Sonuçları
+## Test Results
 
-Tüm test senaryoları başarıyla çalışmıştır. Aşağıda her testin başarılı olup olmadığını gösteren sonuçlar bulunmaktadır:
+All test scenarios ran successfully. Below are the results showing whether each test passed or failed:
 
-- **Pet API Tests**: Başarılı
+- **Pet API Tests**: Successful
     - POST - Create a new pet to the store : Successful(200)
     - GET - Find pet by status : Successful(200)
     - GET - Find pet by ID : Successful(200)
@@ -53,6 +53,25 @@ Tüm test senaryoları başarıyla çalışmıştır. Aşağıda her testin baş
     - DELETE - Delete non-existing pet ID : Successful (404)
 
 
+## Test Results    
 
+1. Run tests:
+    ```bash
+    npm run browser:chrome
+    ```
+
+### Terminal Test Result
+
+[Test Result.png]()
+
+2. Open Allure Reports:
+    ```bash
+    npm run report:allure
+    ```    
+
+### Allure Test Result
+
+[AllureReports1.png]()    
+[AllureReports2.png]()  
 
 

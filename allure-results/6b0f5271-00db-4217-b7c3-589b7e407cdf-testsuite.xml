@@ -1,25 +1,17 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1723371808160' stop='1723371810886'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1723377116032' stop='1723377118725'>
     <name>Pet Tests</name>
     <title>Pet Tests</title>
     <test-cases>
-        <test-case start='1723371808160' status='passed' stop='1723371809023'>
-            <name>Add a new pet to the store - should return 200 for a valid pet ID</name>
-            <title>Add a new pet to the store - should return 200 for a valid pet ID</title>
+        <test-case start='1723377116032' status='passed' stop='1723377117010'>
+            <name>Create a new pet to the store - should return 200 for a valid pet ID</name>
+            <title>Create a new pet to the store - should return 200 for a valid pet ID</title>
             <labels/>
             <parameters/>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1723371809033' status='passed' stop='1723371809190'>
-            <name>Add a new pet to the store - should return 500 for an invalid pet ID</name>
-            <title>Add a new pet to the store - should return 500 for an invalid pet ID</title>
-            <labels/>
-            <parameters/>
-            <steps/>
-            <attachments/>
-        </test-case>
-        <test-case start='1723371809199' status='passed' stop='1723371809357'>
+        <test-case start='1723377117020' status='passed' stop='1723377117182'>
             <name>Find pet by status - should return 200 for a valid pet by status</name>
             <title>Find pet by status - should return 200 for a valid pet by status</title>
             <labels/>
@@ -27,7 +19,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1723371809370' status='passed' stop='1723371809531'>
+        <test-case start='1723377117189' status='passed' stop='1723377117350'>
             <name>Find pet by ID - should return 200 for a valid pet ID</name>
             <title>Find pet by ID - should return 200 for a valid pet ID</title>
             <labels/>
@@ -35,31 +27,31 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1723371809542' status='passed' stop='1723371809701'>
-            <name>Find pet by ID - should return 404 for an invalid pet ID</name>
-            <title>Find pet by ID - should return 404 for an invalid pet ID</title>
+        <test-case start='1723377117362' status='passed' stop='1723377117528'>
+            <name>Invalid pet by ID - should return 404 for an invalid pet ID</name>
+            <title>Invalid pet by ID - should return 404 for an invalid pet ID</title>
             <labels/>
             <parameters/>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1723371809709' status='passed' stop='1723371809867'>
-            <name>Find pet by ID - should return 404 for a non-existing pet ID</name>
-            <title>Find pet by ID - should return 404 for a non-existing pet ID</title>
+        <test-case start='1723377117539' status='passed' stop='1723377117702'>
+            <name>Undefined Pet by ID - should return 404 for a non-existing pet ID</name>
+            <title>Undefined Pet by ID - should return 404 for a non-existing pet ID</title>
             <labels/>
             <parameters/>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1723371809878' status='passed' stop='1723371810039'>
-            <name>Update an existing pet - should return 200 for a valid pet status</name>
-            <title>Update an existing pet - should return 200 for a valid pet status</title>
+        <test-case start='1723377117711' status='passed' stop='1723377117877'>
+            <name>Update an existing pet information - should return 200 for a valid pet status</name>
+            <title>Update an existing pet information - should return 200 for a valid pet status</title>
             <labels/>
             <parameters/>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1723371810051' status='passed' stop='1723371810210'>
+        <test-case start='1723377117887' status='passed' stop='1723377118053'>
             <name>Updates a pet in the store with form data - should return 200 for form data</name>
             <title>Updates a pet in the store with form data - should return 200 for form data</title>
             <labels/>
@@ -67,15 +59,15 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1723371810222' status='passed' stop='1723371810379'>
-            <name>Updates a pet in the store with form data - should return 404 for not found pet ID</name>
-            <title>Updates a pet in the store with form data - should return 404 for not found pet ID</title>
+        <test-case start='1723377118059' status='passed' stop='1723377118217'>
+            <name>Updates a pet in the store with form data(Undefined Pet by ID) - should return 404 for not found pet ID</name>
+            <title>Updates a pet in the store with form data(Undefined Pet by ID) - should return 404 for not found pet ID</title>
             <labels/>
             <parameters/>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1723371810383' status='passed' stop='1723371810541'>
+        <test-case start='1723377118229' status='passed' stop='1723377118389'>
             <name>Delete with PetID - should return 200 for a valid pet ID</name>
             <title>Delete with PetID - should return 200 for a valid pet ID</title>
             <labels/>
@@ -83,7 +75,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1723371810552' status='passed' stop='1723371810715'>
+        <test-case start='1723377118400' status='passed' stop='1723377118553'>
             <name>Delete invalid pet ID - should return 404 for an invalid pet ID</name>
             <title>Delete invalid pet ID - should return 404 for an invalid pet ID</title>
             <labels/>
@@ -91,7 +83,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1723371810726' status='passed' stop='1723371810886'>
+        <test-case start='1723377118565' status='passed' stop='1723377118725'>
             <name>Delete non-existing pet ID - should return 404 for a non-existing pet ID</name>
             <title>Delete non-existing pet ID - should return 404 for a non-existing pet ID</title>
             <labels/>
