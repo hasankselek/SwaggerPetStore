@@ -62,7 +62,7 @@ All test scenarios ran successfully. Below are the results showing whether each 
 
 ### Terminal Test Result
 
-[Test Result.png]()
+[Test Result.png](https://github.com/hasankselek/SwaggerPetStore/blob/main/TestsScreenshots/Test%20Result.png)
 
 2. Open Allure Reports:
     ```bash
@@ -71,7 +71,7 @@ All test scenarios ran successfully. Below are the results showing whether each 
 
 ### Allure Test Result
 
-[AllureReports1.png]()    
-[AllureReports2.png]()  
+[AllureReports1.png](https://github.com/hasankselek/SwaggerPetStore/blob/main/TestsScreenshots/AllureReports1.png)    
+[AllureReports2.png](https://github.com/hasankselek/SwaggerPetStore/blob/main/TestsScreenshots/AllureReports2.png)  
 
 
